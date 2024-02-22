@@ -1,0 +1,15 @@
+{
+    "name": "background-generator",
+    "version": "1.0.0",
+    "description": "",
+    "main": "bg_Generator.js",
+    "scripts": {
+      "build": "browserify bg_Generator.js > bundle.js",
+      "server": "live-server"
+    },
+    "author": "Azghour-Saad",
+    "license": "ISC",
+    "dependencies": {
+      "lodash": "^4.17.11"
+    }
+  }
